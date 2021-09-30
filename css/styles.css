@@ -76,7 +76,7 @@ header nav ul li a {
   text-decoration: none;
   font-size: 14px;
   transition: 0.5s;
-  padding: 40px 10px;
+
   position: relative;
   z-index: 2;
 }
@@ -84,7 +84,7 @@ header nav ul li a.active,
 header nav ul li a:hover {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
-  font-size: 18px;
+  font-size: 12px;
 }
 
 header nav .form {
@@ -109,9 +109,9 @@ header nav .toggle-menue:hover + ul {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: rgba(110, 109, 109, 0.295);
+  background-color: rgba(54, 54, 54, 0.295);
   width: 100%;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 /* landing */
@@ -192,6 +192,9 @@ header nav .toggle-menue:hover + ul {
   }
   header nav .toggle-menue {
     display: none;
+  }
+  header nav ul li a {
+    padding: 40px 10px;
   }
   header nav ul {
     /* display: block; */
