@@ -225,9 +225,9 @@ header nav .toggle-menue:hover + ul {
   }
 
   .landing .ang-right {
-    right: 150px;
+    right: 50px;
   }
   .landing .ang-left {
-    left: 150px;
+    left: 50px;
   }
 }
