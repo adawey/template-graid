@@ -119,6 +119,7 @@ header nav .toggle-menue:hover + ul {
   min-height: 100vh;
   background-color: burlywood;
   background-image: url(../images/original.jpg);
+  background-position: center right;
   background-size: cover;
 }
 .landing .overlay {
@@ -143,10 +144,11 @@ header nav .toggle-menue:hover + ul {
 }
 .landing .text .content {
   max-width: 100%;
+  margin-top: 10px;
   padding-left: 10px;
 }
 .landing .text .content h2 {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: normal;
   line-height: 1.5;
   margin-bottom: 20px;
